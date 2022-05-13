@@ -42,6 +42,7 @@ create table if not exists movies
     foreign key (director_id) references directors(id)
 );
 
+
 describe movies;
 
 -- ##################################################################
