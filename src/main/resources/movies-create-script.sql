@@ -140,6 +140,7 @@ CREATE TABLE IF NOT EXISTS movie_actor
     FOREIGN KEY (actor_id) REFERENCES actors (id)
 );
 
+
 # 8. Go add DROP IF EXIST statements for movies and directors
 # 9. RUN IT!
 
